@@ -29,6 +29,8 @@ Example:
 [Solutions](/src/lists/P04.js)
 
 ### P05: Reverse a list.
+[Solutions](/src/lists/P05.js)
+
 ### P06: Find out whether a list is a palindrome.
 A palindrome can be read forward or backward; e.g. (x a m a x).
 ### P07: Flatten a nested list structure.
