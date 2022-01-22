@@ -1,0 +1,24 @@
+{
+  "name": "99-js-problems",
+  "version": "1.0.0",
+  "description": "Inspired by 99 Lisp Problems, with functional Javascript AND Modern JS standards",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha ./src/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeMonobe/99-js-problems.git"
+  },
+  "keywords": ["javascript", "functional", "challenges"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeMonobe/99-js-problems/issues"
+  },
+  "homepage": "https://github.com/FelipeMonobe/99-js-problems#readme",
+  "devDependencies": {
+    "mocha": "^9.1.4"
+  }
+}
