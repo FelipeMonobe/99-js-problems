@@ -1,4 +1,5 @@
-export const elementAt = ([e, ...rest], n) => {
+export const elementAt = ([e, ...rest], n = 0) => {
+  if (n < 1) return
   if (n === 1) return e
   return elementAt(rest, n - 1)
 }

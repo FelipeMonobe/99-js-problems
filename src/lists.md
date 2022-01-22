@@ -13,6 +13,7 @@ Example:
 > myButLast([a, b, c, d])
 > c
 ```
+[Solutions](/src/lists/P02.js)
 
 ### P03: Find the K'th element of a list.
 The first element in the list is number 1.
@@ -22,8 +23,11 @@ Example:
 > elementAt([a, b, c, d, e], 3)
 > c
 ```
+[Solutions](/src/lists/P03.js)
 
 ### P04: Find the number of elements of a list.
+[Solutions](/src/lists/P04.js)
+
 ### P05: Reverse a list.
 ### P06: Find out whether a list is a palindrome.
 A palindrome can be read forward or backward; e.g. (x a m a x).
