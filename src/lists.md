@@ -33,6 +33,7 @@ Example:
 
 ### P06: Find out whether a list is a palindrome.
 A palindrome can be read forward or backward; e.g. (x a m a x).
+
 [Solutions](/src/lists/P06.js)
 
 ### P07: Flatten a nested list structure.
@@ -45,6 +46,7 @@ Example:
 ```
 
 Hint: Use the predefined functions list and append.
+
 [Solutions](/src/lists/P07.js)
 
 ### P08: Eliminate consecutive duplicates of list elements.
