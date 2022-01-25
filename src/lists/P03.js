@@ -4,4 +4,4 @@ export const elementAt = ([e, ...rest], n = 0) => {
   return elementAt(rest, n - 1)
 }
 
-export const elementAtEZ = (arr, n) => arr[n - 1]
+export const elementAtES = (arr, n) => arr[n - 1]

@@ -4,4 +4,4 @@ export const myFlatten = ([e, ...rest]) => {
   return [e, ...myFlatten(rest)]
 }
 
-export const myFlattenEZ = arr => arr.flat(Infinity)
+export const myFlattenES = arr => arr.flat(Infinity)

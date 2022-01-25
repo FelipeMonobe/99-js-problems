@@ -9,7 +9,7 @@ Problems are categorized by topics, as follows:
 
 
 ## Solutions
-Each problem has 2 solutions, with **functional recursive** and **modern JS** approaches, respectively. To validate the I/O of the code, unit tests were written.
+Each problem has 2 solutions, with **functional recursive** and **modern JS (ES2015+)** approaches, respectively. To validate the I/O of the code, unit tests were written.
 
 To run the test suite, make sure to install
 this project's dev dependencies:

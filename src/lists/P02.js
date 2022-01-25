@@ -4,4 +4,4 @@ export const myButLast = ([e, ...rest]) => {
   return myButLast(rest)
 }
 
-export const myButLastEZ = arr => arr[arr.length - 2]
+export const myButLastES = arr => arr[arr.length - 2]

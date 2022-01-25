@@ -5,4 +5,4 @@ export const isPalindrome = ([...chars] = '') => {
   return isPalindrome(chars.slice(1, chars.length - 1))
 }
 
-export const isPalindromeEZ = (str) => str === [...str].reverse().join('')
+export const isPalindromeES = (str) => str === [...str].reverse().join('')
