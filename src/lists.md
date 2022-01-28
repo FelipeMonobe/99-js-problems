@@ -77,8 +77,10 @@ Use the result of problem P09 to implement the so-called run-length encoding dat
 Example:
 ```js
 > encode([a, a, a, a, b, c, c, a, a, d, e, e, e, e])
-> [(4, a], [1, b], [2, c], [2, a], [1, d], [4, e]]
+> [[4, a], [1, b], [2, c], [2, a], [1, d], [4, e]]
 ```
+
+[Solutions](/src/lists/P10.js)
 
 # Unformatted exercises
 ### P11: Modified run-length encoding.
