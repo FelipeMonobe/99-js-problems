@@ -82,30 +82,41 @@ Example:
 
 [Solutions](/src/lists/P10.js)
 
-# Unformatted exercises
 ### P11: Modified run-length encoding.
 Modify the result of problem P10 in such a way that if an element has no duplicates it is simply copied into the result list. Only elements with duplicates are transferred as (N E) lists.
 
 Example:
-* (encode-modified '(a a a a b c c a a d e e e e))
-((4 A) B (2 C) (2 A) D (4 E))
+```js
+> encodeModified([a, a, a, a, b, c, c, a, a, d, e, e, e, e])
+> [[4, a], b, [2, c], [2, a], d, [4, e]]
+```
+
 ### P12: Decode a run-length encoded list.
 Given a run-length code list generated as specified in problem P11. Construct its uncompressed version.
+
 ### P13: Run-length encoding of a list (direct solution).
 Implement the so-called run-length encoding data compression method directly. I.e. don't explicitly create the sublists containing the duplicates, as in problem P09, but only count them. As in problem P11, simplify the result list by replacing the singleton lists (1 X) by X.
 
 Example:
-* (encode-direct '(a a a a b c c a a d e e e e))
-((4 A) B (2 C) (2 A) D (4 E))
+```js
+> encodeDirect([a, a, a, a, b, c, c, a, a, d, e, e, e, e])
+> [[4, a], b, [2, c], [2, a], d, [4, e]]
+```
 ### P14: Duplicate the elements of a list.
 Example:
-* (dupli '(a b c c d))
-(A A B B C C C C D D)
+```js
+> dupli([a, b, c, c, d])
+> [a, a, b, b, c, c, c, c, d, d]
+```
+
 ### P15: Replicate the elements of a list a given number of times.
 Example:
-* (repli '(a b c) 3)
-(A A A B B B C C C)
+```js
+> repli([a, b, c], 3)
+> [a, a, a, b, b, b, c, c, c]
+```
 
+# Unformatted exercises
 ### P16: Drop every N'th element from a list.
 Example:
 * (drop '(a b c d e f g h i k) 3)

@@ -12,7 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/FelipeMonobe/99-js-problems.git"
   },
-  "keywords": ["javascript", "functional", "challenges"],
+  "keywords": [
+    "javascript",
+    "functional",
+    "challenges"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
