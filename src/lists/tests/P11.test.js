@@ -1,7 +1,7 @@
 import { encodeModified } from '../P11.js'
 import { strict as assert } from 'assert'
 
-describe.only('P11', () => {
+describe('P11', () => {
   it('encodeModified([]) should return []', () => {
     const actualValue = encodeModified([])
     const expectedValue = []

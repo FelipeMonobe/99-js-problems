@@ -96,6 +96,12 @@ Example:
 ### P12: Decode a run-length encoded list.
 Given a run-length code list generated as specified in problem P11. Construct its uncompressed version.
 
+Example:
+```js
+> decodeModified([[4, 'a'], 'b', [2, 'c'], [2, 'a'], 'd', [4, 'e']])
+> 'aaaabccaadeeee'
+```
+
 ### P13: Run-length encoding of a list (direct solution).
 Implement the so-called run-length encoding data compression method directly. I.e. don't explicitly create the sublists containing the duplicates, as in problem P09, but only count them. As in problem P11, simplify the result list by replacing the singleton lists (1 X) by X.
 
