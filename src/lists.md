@@ -122,6 +122,8 @@ Example:
 > [a, a, b, b, c, c, c, c, d, d]
 ```
 
+[Solutions](/src/lists/P14.js)
+
 ### P15: Replicate the elements of a list a given number of times.
 Example:
 ```js
