@@ -131,6 +131,8 @@ Example:
 > [a, a, a, b, b, b, c, c, c]
 ```
 
+[Solutions](/src/lists/P15.js)
+
 # Unformatted exercises
 ### P16: Drop every N'th element from a list.
 Example:
