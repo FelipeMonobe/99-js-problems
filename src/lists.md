@@ -159,8 +159,10 @@ Given two indices, I and K, the slice is the list containing the elements betwee
 Example:
 ```js
 > slice(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'k'], 3, 7)
-> ['c', 'd' 'e', 'f', 'g']
+> ['c', 'd', 'e', 'f', 'g']
 ```
+
+[Solutions](/src/lists/P18.js)
 
 ### P19: Rotate a list N places to the left.
 Examples:
