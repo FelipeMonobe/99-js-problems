@@ -1,7 +1,7 @@
 import { repli } from '../P15.js'
 import { strict as assert } from 'assert'
 
-describe.only('P15', () => {
+describe('P15', () => {
   it('repli([]) should return []', () => {
     const actualValue = repli([])
     const expectedValue = []

@@ -140,6 +140,8 @@ Example:
 > ['a', 'b', 'd', 'e', 'g', 'h', 'j']
 ```
 
+[Solutions](/src/lists/P16.js)
+
 ### P17: Split a list into two parts; the length of the first part is given.
 Do not use any predefined predicates.
 
