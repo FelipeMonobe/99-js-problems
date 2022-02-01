@@ -133,36 +133,54 @@ Example:
 
 [Solutions](/src/lists/P15.js)
 
-# Unformatted exercises
 ### P16: Drop every N'th element from a list.
 Example:
-* (drop '(a b c d e f g h i k) 3)
-(A B D E G H K)
+```js
+> drop(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'], 3)
+> ['a', 'b', 'd', 'e', 'g', 'h', 'j']
+```
+
 ### P17: Split a list into two parts; the length of the first part is given.
 Do not use any predefined predicates.
 
 Example:
-* (split '(a b c d e f g h i k) 3)
-( (A B C) (D E F G H I K))
+```js
+> split (['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'], 3)
+> [['a', 'b', 'c'], ['d', 'e', 'f', 'g', 'h', 'i', 'j']]
+```
+
 ### P18: Extract a slice from a list.
 Given two indices, I and K, the slice is the list containing the elements between the I'th and K'th element of the original list (both limits included). Start counting the elements with 1.
 
 Example:
-* (slice '(a b c d e f g h i k) 3 7)
-(C D E F G)
+```js
+> slice(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'k'], 3, 7)
+> ['c', 'd' 'e', 'f', 'g']
+```
+
 ### P19: Rotate a list N places to the left.
 Examples:
-* (rotate '(a b c d e f g h) 3)
-(D E F G H A B C)
+```js
+> rotate (['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'], 3)
+> ['d', 'e', 'f', 'g', 'h', 'a', 'b', 'c']
+```
 
-* (rotate '(a b c d e f g h) -2)
-(G H A B C D E F)
+```js
+> rotate(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'], -2)
+> ('g', 'h', 'a', 'b', 'c', 'd', 'e', 'f')
+```
 
 Hint: Use the predefined functions length and append, as well as the result of problem P17.
+
 ### P20: Remove the K'th element from a list.
 Example:
-* (remove-at '(a b c d) 2)
-(A C D)
+```js
+> removeAt(['a', 'b', 'c', 'd'], 2)
+> ['a', 'c', 'd']
+```
+
+# Unformatted exercises
+
 ### P21: Insert an element at a given position into a list.
 Example:
 * (insert-at 'alfa '(a b c d) 2)
