@@ -173,7 +173,7 @@ Examples:
 
 ```js
 > rotate(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'], -2)
-> ('g', 'h', 'a', 'b', 'c', 'd', 'e', 'f')
+> ['g', 'h', 'a', 'b', 'c', 'd', 'e', 'f']
 ```
 
 Hint: Use the predefined functions length and append, as well as the result of problem P17.
@@ -186,6 +186,8 @@ Example:
 > removeAt(['a', 'b', 'c', 'd'], 2)
 > ['a', 'c', 'd']
 ```
+
+[Solutions](/src/lists/P20.js)
 
 # Unformatted exercises
 
