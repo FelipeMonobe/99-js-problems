@@ -178,6 +178,8 @@ Examples:
 
 Hint: Use the predefined functions length and append, as well as the result of problem P17.
 
+[Solutions](/src/lists/P19.js)
+
 ### P20: Remove the K'th element from a list.
 Example:
 ```js
