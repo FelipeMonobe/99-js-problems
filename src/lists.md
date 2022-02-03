@@ -208,6 +208,8 @@ Example:
 > [4, 5, 6, 7, 8, 9]
 ```
 
+[Solutions](/src/lists/P22.js)
+
 ### P23: Extract a given number of randomly selected elements from a list.
 The selected items shall be returned in a list.
 Example:
