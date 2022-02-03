@@ -197,6 +197,8 @@ Example:
 > [a, 'alfa', b, c, d]
 ```
 
+[Solutions](/src/lists/P21.js)
+
 ### P22: Create a list containing all integers within a given range.
 If first argument is smaller than second, produce a list in decreasing order.
 
