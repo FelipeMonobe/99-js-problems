@@ -218,6 +218,8 @@ Example:
 > [e, d, a]
 ```
 
+[Solutions](/src/lists/P23.js)
+
 *Hint: Use the built-in random number generator and the result of problem P20.*
 
 ### P24: Lotto: Draw N different random numbers from the set 1..M.
