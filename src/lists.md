@@ -232,6 +232,8 @@ Example:
 
 *Hint: Combine the solutions of problems P22 and P23.*
 
+[Solutions](/src/lists/P24.js)
+
 ### P25: Generate a random permutation of the elements of a list.
 Example:
 ```js
