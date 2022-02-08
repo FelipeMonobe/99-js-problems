@@ -7,16 +7,16 @@ const _genRandomInt = (min, max) => {
 }
 
 export const rndSelect = (arr, n) => {
-  const _rndSelect = (arr, count) => {
-    if (count < 1 || !arr.length) return arr
-    return _rndSelect(removeAt(arr, _genRandomInt(1, arr.length)), count - 1)
-  }
-
-  return _rndSelect(arr, arr.length - n)
+  if (!n || !arr.length) return []
+  const rndNum = _genRandomInt(0, arr.length - 1)
+  return [arr[rndNum], ...rndSelect(removeAt(arr, rndNum + 1), n - 1)]
 }
 
-export const rndSelectES = (arr, n) => arr.length
-  ? Array(arr.length - n)
-    .fill(null)
-    .reduce(a => removeAt(a, _genRandomInt(1, a.length)), arr)
-  : []
+export const rndSelectES = (arr, n) => Array(n)
+  .fill(null)
+  .reduce((a) => {
+    const rndNum = _genRandomInt(0, a.prev.length - 1)
+    return { r: [...a.r, a.prev[rndNum]], prev: removeAt(a.prev, rndNum + 1) }
+  }, { r: [], prev: arr }).r
+
+console.log(rndSelectES([1,2,3], 3))

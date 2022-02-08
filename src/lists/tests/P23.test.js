@@ -26,6 +26,14 @@ describe('P23', () => {
     assert.deepEqual(actualValue, expectedValue)
   })
 
+  it('rndSelect([\'a\', \'b\', \'c\'], 3) should return an array with 3 elements from the source array', () => {
+    const array = ['a', 'b', 'c']
+    const rndSelection = rndSelect(array, 3)
+    const actualValue = rndSelection.every(x => array.includes(x))
+    const expectedValue = true
+    assert.deepEqual(actualValue, expectedValue)
+  })
+
   it('rndSelect([\'a\', \'b\', \'c\', \'d\', \'e\', \'f\', \'g\', \'h\'], 3) should return an array with 3 elements from the source array', () => {
     const array = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
     const rndSelection = rndSelect(array, 3)
