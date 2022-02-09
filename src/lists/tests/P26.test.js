@@ -20,7 +20,7 @@ describe('P26', () => {
     assert.deepEqual(actualValue, expectedValue)
   })
 
-  it('combination(1, [\'a\']) should return [[]]', () => {
+  it('combination(1, [\'a\']) should return [[\'a\']]', () => {
     const actualValue = combination(1, ['a'])
     const expectedValue = [['a']]
     assert.deepEqual(actualValue, expectedValue)
